@@ -1,0 +1,4 @@
+create vdisk file="/home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput/Preview_VHD/CASE 005_preview.vhd" maximum=149 type=expandable 
+attach vdisk 
+create partition primary 
+format fs=ntfs label="Preview" quick 

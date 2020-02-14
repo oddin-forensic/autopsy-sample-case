@@ -1,0 +1,2047 @@
+2020-02-13 20:48:38.687 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2020-02-13 20:48:39.1 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2020-02-13 20:48:39.164 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2020-02-13 20:48:39.192 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened teste-005 (teste-005_20200213_204838) in /home/desenv/Desktop/caso_autopsy_test/teste-005 as the current case
+2020-02-13 20:48:39.333 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.14.0
+2020-02-13 20:48:39.337 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.14.0
+2020-02-13 20:48:39.341 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.14.0
+2020-02-13 20:48:39.345 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.14.0
+2020-02-13 20:48:39.349 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.14.0
+2020-02-13 20:48:39.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.14.0
+2020-02-13 20:48:39.357 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.14.0
+2020-02-13 20:48:39.361 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.14.0
+2020-02-13 20:48:39.364 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.14.0
+2020-02-13 20:48:39.371 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2020-02-13 20:48:39.375 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.14.0
+2020-02-13 20:48:39.378 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.14.0
+2020-02-13 20:48:39.379 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.14.0
+2020-02-13 20:48:39.38 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.14.0
+2020-02-13 20:48:39.381 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.14.0
+2020-02-13 20:48:52.69 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Cuckoo Module, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse CCM Recently Used Apps, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtxByEventID, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShellBags, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Bam Key Module, version = 1.1
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtx, version = 1.5
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = iTunes Backup Module, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite DB, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse File History, version = 1.0
+2020-02-13 20:48:52.691 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Amcache, version = 1.3
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Amazon Echosystem Parser, version = 1.0
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Process/Extract Volume Shadow, version = 1.0
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ActivitiesCache, version = 1.0
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParsePrefetchV41, version = 1.0
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SRUDB, version = 1.3
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = USN Parser, version = 1.0
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Recycle Bin Module, version = 1.2
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Remove Artifacts/Attributes, version = 1.2
+2020-02-13 20:48:52.692 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShimcacheParser, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOSX Safari, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Plists, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Atomic_Wallet, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse WebCache, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appxreg_Programs, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.14.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = EML Parser, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac OSX FSEvents Module, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Spotlight Parser, version = 1.0
+2020-02-13 20:48:52.693 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbs.db Parser Module, version = 1.1
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create Preview Data Container, version = 1.3
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appx_Programs, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOS Recents, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Timesketch Module, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Face Detector, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac_Mail, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite Del Rec, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Teracopy, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows Internals, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows_Mail, version = 1.0
+2020-02-13 20:48:52.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = SAMParse, version = 1.0
+2020-02-13 20:48:52.695 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = JumpList AD, version = 1.0
+2020-02-13 20:48:52.695 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Hash_Images, version = 1.0
+2020-02-13 20:48:52.695 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create_Datasource_Hashset, version = 1.0
+2020-02-13 20:48:52.695 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbscache Parser Module, version = 1.1
+2020-02-13 20:54:51.65 org.sleuthkit.autopsy.coreutils.ModuleSettings getConfigSetting
+INFO: File did not exist. Created file [org.sleuthkit.autopsy.casemodule.ImageDSProcessor.properties]
+2020-02-13 20:55:27.303 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2020-02-13 20:55:27.306 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.307 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.308 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.308 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.308 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.308 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.309 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.309 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.309 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.309 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:55:27.331 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of /
+2020-02-13 20:55:27.332 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0
+2020-02-13 20:55:27.387 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2020-02-13 20:55:27.682 CuckooIngestModule startUp
+INFO: Submit File  =====>None
+2020-02-13 20:55:27.682 CuckooIngestModule startUp
+INFO: Submit URL  =====>None
+2020-02-13 20:55:27.683 CuckooIngestModule startUp
+INFO: Protocol  =====>None
+2020-02-13 20:55:27.683 CuckooIngestModule startUp
+INFO: IP Address  =====>None
+2020-02-13 20:55:27.684 CuckooIngestModule startUp
+INFO: Port_Number  =====>None
+2020-02-13 20:55:27.684 CuckooIngestModule startUp
+INFO: Tags  =====>None
+2020-02-13 20:55:27.687 ParseSQLiteDBIngestModule startUp
+INFO: []
+2020-02-13 20:55:27.689 ParseAmcacheIngestModule startUp
+INFO: [] >> 0
+2020-02-13 20:55:27.691 ParseSRUDBIngestModule startUp
+INFO: []
+2020-02-13 20:55:27.692 Remove_ArtifactsIngestModule startUp
+INFO: List Box Entry Starts here =====>
+2020-02-13 20:55:27.693 Remove_ArtifactsIngestModule startUp
+INFO: None
+2020-02-13 20:55:27.693 Remove_ArtifactsIngestModule startUp
+INFO: Do Not Delete All Artifacts
+2020-02-13 20:55:27.694 Remove_ArtifactsIngestModule startUp
+INFO: Do Not Delete All Attributes
+2020-02-13 20:55:27.695 ParsePlists2DBDelRecIngestModule startUp
+INFO: []
+2020-02-13 20:55:27.697 MacFSEventsIngestModule startUp
+INFO: MacFSEvents Executable ==> /home/desenv/.autopsy/dev/python_modules/MacFSEvents/FSEParser_V2.1
+2020-02-13 20:55:27.698 TimesketchIngestModule startUp
+INFO: Username  =====>None
+2020-02-13 20:55:27.699 TimesketchIngestModule startUp
+INFO: password  =====>None
+2020-02-13 20:55:27.7 TimesketchIngestModule startUp
+INFO: IP Address  =====>None
+2020-02-13 20:55:27.7 TimesketchIngestModule startUp
+INFO: Port_Number  =====>None
+2020-02-13 20:55:27.701 TimesketchIngestModule startUp
+INFO: Sketch Name =====> CASE 005
+2020-02-13 20:55:27.701 TimesketchIngestModule startUp
+INFO: sketch Description =====> teste-005_20200213_204838
+2020-02-13 20:55:27.704 ParseSQLiteDBDelRecIngestModule startUp
+INFO: []
+2020-02-13 20:55:27.706 HashImagesIngestModule startUp
+INFO: Settings ==>  <> 
+2020-02-13 20:55:27.707 HashImagesIngestModule startUp
+INFO: Settings ==> 0 <> 0
+2020-02-13 20:55:27.708 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Error starting Plaso ingest module for job 0
+org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException: Plaso module requires windows.
+	org.sleuthkit.autopsy.modules.plaso.PlasoIngestModule.startUp(PlasoIngestModule.java:112)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.startUp(DataSourceIngestPipeline.java:200)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.startUp(DataSourceIngestPipeline.java:83)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.startUpIngestPipelines(DataSourceIngestJob.java:450)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.start(DataSourceIngestJob.java:420)
+	org.sleuthkit.autopsy.ingest.IngestJob.start(IngestJob.java:158)
+	org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob(IngestManager.java:407)
+	org.sleuthkit.autopsy.ingest.IngestManager.access$600(IngestManager.java:111)
+	org.sleuthkit.autopsy.ingest.IngestManager$StartIngestJobTask.call(IngestManager.java:895)
+	org.sleuthkit.autopsy.ingest.IngestManager$StartIngestJobTask.call(IngestManager.java:858)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:55:27.708 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Ingest job 0 could not be started
+2020-02-13 20:55:42.905 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.14.0
+2020-02-13 20:55:42.905 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.14.0
+2020-02-13 20:55:42.905 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.14.0
+2020-02-13 20:55:42.905 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.14.0
+2020-02-13 20:55:42.905 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.14.0
+2020-02-13 20:55:42.906 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.14.0
+2020-02-13 20:55:45.389 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Cuckoo Module, version = 1.0
+2020-02-13 20:55:45.389 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse CCM Recently Used Apps, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtxByEventID, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShellBags, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Bam Key Module, version = 1.1
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtx, version = 1.5
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = iTunes Backup Module, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite DB, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse File History, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Amcache, version = 1.3
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Amazon Echosystem Parser, version = 1.0
+2020-02-13 20:55:45.39 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Process/Extract Volume Shadow, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ActivitiesCache, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParsePrefetchV41, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SRUDB, version = 1.3
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = USN Parser, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Recycle Bin Module, version = 1.2
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Remove Artifacts/Attributes, version = 1.2
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShimcacheParser, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOSX Safari, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Plists, version = 1.0
+2020-02-13 20:55:45.391 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Atomic_Wallet, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse WebCache, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appxreg_Programs, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.14.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = EML Parser, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac OSX FSEvents Module, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Spotlight Parser, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbs.db Parser Module, version = 1.1
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create Preview Data Container, version = 1.3
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appx_Programs, version = 1.0
+2020-02-13 20:55:45.392 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOS Recents, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Timesketch Module, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Face Detector, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac_Mail, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite Del Rec, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Teracopy, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows Internals, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows_Mail, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = SAMParse, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = JumpList AD, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Hash_Images, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create_Datasource_Hashset, version = 1.0
+2020-02-13 20:55:45.393 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbscache Parser Module, version = 1.1
+2020-02-13 20:56:23.69 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.691 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.691 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.691 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.692 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.692 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.692 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.692 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.693 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.693 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:23.7 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 1
+2020-02-13 20:56:23.701 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2020-02-13 20:56:23.716 CuckooIngestModule startUp
+INFO: Submit File  =====>None
+2020-02-13 20:56:23.716 CuckooIngestModule startUp
+INFO: Submit URL  =====>None
+2020-02-13 20:56:23.717 CuckooIngestModule startUp
+INFO: Protocol  =====>None
+2020-02-13 20:56:23.717 CuckooIngestModule startUp
+INFO: IP Address  =====>None
+2020-02-13 20:56:23.718 CuckooIngestModule startUp
+INFO: Port_Number  =====>None
+2020-02-13 20:56:23.718 CuckooIngestModule startUp
+INFO: Tags  =====>None
+2020-02-13 20:56:23.72 ParseSQLiteDBIngestModule startUp
+INFO: []
+2020-02-13 20:56:23.721 ParseAmcacheIngestModule startUp
+INFO: [] >> 0
+2020-02-13 20:56:23.722 ParseSRUDBIngestModule startUp
+INFO: []
+2020-02-13 20:56:23.723 Remove_ArtifactsIngestModule startUp
+INFO: List Box Entry Starts here =====>
+2020-02-13 20:56:23.724 Remove_ArtifactsIngestModule startUp
+INFO: None
+2020-02-13 20:56:23.724 Remove_ArtifactsIngestModule startUp
+INFO: Do Not Delete All Artifacts
+2020-02-13 20:56:23.724 Remove_ArtifactsIngestModule startUp
+INFO: Do Not Delete All Attributes
+2020-02-13 20:56:23.726 ParsePlists2DBDelRecIngestModule startUp
+INFO: []
+2020-02-13 20:56:23.727 MacFSEventsIngestModule startUp
+INFO: MacFSEvents Executable ==> /home/desenv/.autopsy/dev/python_modules/MacFSEvents/FSEParser_V2.1
+2020-02-13 20:56:23.728 TimesketchIngestModule startUp
+INFO: Username  =====>None
+2020-02-13 20:56:23.728 TimesketchIngestModule startUp
+INFO: password  =====>None
+2020-02-13 20:56:23.729 TimesketchIngestModule startUp
+INFO: IP Address  =====>None
+2020-02-13 20:56:23.729 TimesketchIngestModule startUp
+INFO: Port_Number  =====>None
+2020-02-13 20:56:23.729 TimesketchIngestModule startUp
+INFO: Sketch Name =====> CASE 005
+2020-02-13 20:56:23.73 TimesketchIngestModule startUp
+INFO: sketch Description =====> teste-005_20200213_204838
+2020-02-13 20:56:23.731 ParseSQLiteDBDelRecIngestModule startUp
+INFO: []
+2020-02-13 20:56:23.732 HashImagesIngestModule startUp
+INFO: Settings ==>  <> 
+2020-02-13 20:56:23.733 HashImagesIngestModule startUp
+INFO: Settings ==> 0 <> 0
+2020-02-13 20:56:24.249 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2020-02-13 20:56:24.28 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Starting first stage analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 20:56:24.282 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Scheduling first stage data source and file level analysis tasks (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 20:56:24.283 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.284 org.sleuthkit.autopsy.recentactivity.Chrome getHistory
+INFO: Could not find any allocated Chrome history files.
+2020-02-13 20:56:24.284 org.sleuthkit.autopsy.recentactivity.Chrome getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2020-02-13 20:56:24.284 org.sleuthkit.autopsy.recentactivity.Chrome getCookie
+INFO: Didn't find any Chrome cookies files.
+2020-02-13 20:56:24.284 org.sleuthkit.autopsy.recentactivity.Chrome getLogins
+INFO: Didn't find any Chrome Login Data files.
+2020-02-13 20:56:24.285 org.sleuthkit.autopsy.recentactivity.Chrome getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2020-02-13 20:56:24.285 org.sleuthkit.autopsy.recentactivity.Chrome getDownload
+INFO: Didn't find any Chrome download files.
+2020-02-13 20:56:24.286 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2020-02-13 20:56:24.286 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2020-02-13 20:56:24.287 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2020-02-13 20:56:24.288 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2020-02-13 20:56:24.288 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/RecentActivity/IE/results
+2020-02-13 20:56:24.288 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: /home/desenv/Downloads/autopsy-4.14.0/autopsy/pasco2
+2020-02-13 20:56:24.288 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2020-02-13 20:56:24.289 org.sleuthkit.autopsy.recentactivity.ExtractEdge process
+WARNING: Microsoft Edge files found, unable to parse on Non-Windows system
+2020-02-13 20:56:24.289 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2020-02-13 20:56:24.29 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2020-02-13 20:56:24.29 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2020-02-13 20:56:24.29 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+
+2020-02-13 20:56:24.296 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+INFO: Search Engine URL Query Analyzer has completed.
+2020-02-13 20:56:24.296 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.296 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Encryption Detection analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Encryption Detection analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Virtual Machine Extractor analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source 2011-10-19-Sample.E01
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source 2011-10-19-Sample.E01
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Virtual Machine Extractor analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.297 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Cuckoo Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.299 CuckooIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.299 CuckooIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.302 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse CCM Recently Used Apps analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.303 ParseRecentlyUsedAppsIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.304 ParseRecentlyUsedAppsIngestModule process
+INFO: Starting 2 to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.305 ParseRecentlyUsedAppsIngestModule parse_recentApps
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.307 ParseRecentlyUsedAppsIngestModule parse_recentApps
+INFO: Running prog ==> /home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/show_CCM_RecentlyUsedApps win7 /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/Recently_Used /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/Recently_UsedecentlyUsedApps.db3
+2020-02-13 20:56:24.319 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ParseEvtxByEventID analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.32 ParseEvtxByEventIDIngestModule process
+INFO: List Of Events ==> [] <== Number of Events ==> 0
+2020-02-13 20:56:24.321 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ParseEvtxByEventID analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.321 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ShellBags analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.322 ParseShellbagsIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.324 ParseShellbagsIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.325 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Bam Key Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.326 BamKeyIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/bam
+2020-02-13 20:56:24.328 BamKeyIngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.329 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Bam Key Module analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.329 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ParseEvtx analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.33 ParseEvtxDbIngestModule process
+INFO: List Of Events ==> [] <== Number of Events ==> 0
+2020-02-13 20:56:24.33 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ParseEvtx analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.33 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: iTunes Backup Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.332 iTunesBackupIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/iTunes
+2020-02-13 20:56:24.332 iTunesBackupIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput/iTunes
+2020-02-13 20:56:24.333 iTunesBackupIngestModule process
+INFO: Number of Manifestdb Files found ==> 0
+2020-02-13 20:56:24.341 org.sleuthkit.autopsy.events.LocalEventPublisher lambda$publish$0
+SEVERE: Exception thrown by subscriber
+java.lang.ClassCastException: org.sleuthkit.datamodel.LocalDirectory cannot be cast to org.sleuthkit.datamodel.DataSource
+	org.sleuthkit.autopsy.keywordsearch.DropdownToolbar$SearchSettingsChangeListener.propertyChange(DropdownToolbar.java:254)
+	org.sleuthkit.autopsy.events.LocalEventPublisher.lambda$publish$0(LocalEventPublisher.java:110)
+	java.util.concurrent.ConcurrentHashMap$KeySetView.forEach(ConcurrentHashMap.java:4649)
+	org.sleuthkit.autopsy.events.LocalEventPublisher.publish(LocalEventPublisher.java:108)
+	org.sleuthkit.autopsy.events.AutopsyEventPublisher.publishLocally(AutopsyEventPublisher.java:151)
+	org.sleuthkit.autopsy.events.AutopsyEventPublisher.publish(AutopsyEventPublisher.java:141)
+	org.sleuthkit.autopsy.casemodule.Case.notifyDataSourceAdded(Case.java:1529)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:186)
+	org.python.core.PyReflectedFunction.__call__(PyReflectedFunction.java:204)
+	org.python.core.PyObject.__call__(PyObject.java:496)
+	org.python.core.PyObject.__call__(PyObject.java:500)
+	org.python.core.PyMethod.__call__(PyMethod.java:156)
+	iTunes_Backup$py.addBackupFilesToDataSource$14(/home/desenv/.autopsy/dev/python_modules/iTunes_Backup/iTunes_Backup.py:207)
+	iTunes_Backup$py.call_function(/home/desenv/.autopsy/dev/python_modules/iTunes_Backup/iTunes_Backup.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:170)
+	org.python.core.PyFunction.__call__(PyFunction.java:434)
+	org.python.core.PyMethod.__call__(PyMethod.java:156)
+	iTunes_Backup$py.process$13(/home/desenv/.autopsy/dev/python_modules/iTunes_Backup/iTunes_Backup.py:181)
+	iTunes_Backup$py.call_function(/home/desenv/.autopsy/dev/python_modules/iTunes_Backup/iTunes_Backup.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.iTunes_Backup$iTunesBackupIngestModule$228.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.343 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: iTunes Backup Module analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.343 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse SQLite DB analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.343 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse SQLite DB analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.343 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse File History analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.345 ParseFileHistoryIngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.347 ParseFileHistoryIngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.348 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Adding job 1
+2020-02-13 20:56:24.349 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Resetting periodic search time out to default value
+2020-02-13 20:56:24.352 ParseFileHistoryIngestModule process
+INFO: Get Artifacts after they were created.
+2020-02-13 20:56:24.353 ParseFileHistoryIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.354 ParseFileHistoryIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/File_History
+2020-02-13 20:56:24.354 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse File History analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.354 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse Amcache analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.355 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse Amcache analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.355 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Amazon Echosystem Parser analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.356 Alexa_DB_ParseIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.356 Alexa_DB_ParseIngestModule process
+INFO: Starting 2 to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.36 Alexa_DB_ParseIngestModule process
+INFO: Select distinct file_name from alexa_databases
+2020-02-13 20:56:24.364 Alexa_DB_ParseIngestModule process
+INFO: Query Database table for unique file names
+2020-02-13 20:56:24.365 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> map_data_storage_v2.db
+2020-02-13 20:56:24.365 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> arn_aws_remote-config_us-west-2_412793207129_appConfig_ayuw5hfh_ConfigurationCache.db
+2020-02-13 20:56:24.366 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> Index
+2020-02-13 20:56:24.367 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> QuotaManager
+2020-02-13 20:56:24.368 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> datastore.db
+2020-02-13 20:56:24.369 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> Cookies
+2020-02-13 20:56:24.37 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> iot.1.db
+2020-02-13 20:56:24.371 Alexa_DB_ParseIngestModule process
+INFO: found 0 files for file_name ==> locations_vs
+2020-02-13 20:56:24.372 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Amazon Echosystem Parser analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.372 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Process/Extract Volume Shadow analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.373 VSSIngesttModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.373 VSSIngesttModule process
+INFO: Starting Processing of Image
+2020-02-13 20:56:24.374 VSSIngesttModule process
+INFO: Image names ==> /home/desenv/Downloads/2011-10-19-Image/2011-10-19-Sample.E01
+2020-02-13 20:56:24.375 VSSIngesttModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.376 VSSIngesttModule process
+INFO: Running prog ==> /home/desenv/.autopsy/dev/python_modules/Process_Extract_VSS/process_extract_vss.exe /home/desenv/Downloads/2011-10-19-Image/2011-10-19-Sample.E01 /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput/vss/vss_extract_info.db3 /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput/vss /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput/vss/bad_files.log
+2020-02-13 20:56:24.381 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ActivitiesCache analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.384 ProcessActivitiesCacheIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.384 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ActivitiesCache analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.384 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ParsePrefetchV41 analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.386 ParsePrefetchDbIngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.39 ParsePrefetchDbIngestModule process
+INFO: Get Artifacts after they were created.
+2020-02-13 20:56:24.392 ParsePrefetchDbIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.393 ParsePrefetchDbIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/Prefetch_Files
+2020-02-13 20:56:24.394 ParsePrefetchDbIngestModule process
+INFO: Running program on data source parm 1 ==> /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/Prefetch_Files  Parm 2 ==> /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.396 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse SRUDB analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.398 ParseSRUDBIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.399 ParseSRUDBIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.4 ParseSRUDBIngestModule process
+INFO: Running program on data source parm 1 ==> /home/desenv/.autopsy/dev/python_modules/Process_SRUDB/Export_SRUDB == >   Parm 2 ==> /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp\SRUDB.db3
+2020-02-13 20:56:24.402 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: USN Parser analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.404 ParseUsnJIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.405 ParseUsnJIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.405 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: USN Parser analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.406 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recycle Bin Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.407 RecBin2IngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/recyclebin
+2020-02-13 20:56:24.408 RecBin2IngestModule process
+INFO: Number of SAM Files found ==> 0
+2020-02-13 20:56:24.409 RecBin2IngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.411 RecBin2IngestModule process
+INFO: Artifacts Creation Error, some artifacts may not exist now. ==> 
+2020-02-13 20:56:24.413 RecBin2IngestModule process
+INFO: Number of $I Files found ==> 0
+2020-02-13 20:56:24.413 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recycle Bin Module analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.413 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Remove Artifacts/Attributes analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.414 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ShimcacheParser analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.416 ParseShimcacheIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.417 ParseShimcacheIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.417 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: ShimcacheParser analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.417 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse MACOSX Safari analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.419 ParseMACOSXSafariIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.42 ParseMACOSXSafariIngestModule process
+INFO: Starting 2 to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.422 ParseMACOSXSafariIngestModule parse_safari_history
+INFO: found 0 files
+2020-02-13 20:56:24.423 ParseMACOSXSafariIngestModule parse_safari_history
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.425 ParseMACOSXSafariIngestModule parse_safari_history
+INFO: removal of Safari History directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.427 ParseMACOSXSafariIngestModule parse_safari_bookmarks
+INFO: found 0 files
+2020-02-13 20:56:24.428 ParseMACOSXSafariIngestModule parse_safari_bookmarks
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.429 ParseMACOSXSafariIngestModule parse_safari_bookmarks
+INFO: removal of Safari bookmarks directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.43 ParseMACOSXSafariIngestModule parse_safari_downloads
+INFO: found 0 files
+2020-02-13 20:56:24.431 ParseMACOSXSafariIngestModule parse_safari_downloads
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.431 ParseMACOSXSafariIngestModule parse_safari_downloads
+INFO: removal of Safari Download directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.432 ParseMACOSXSafariIngestModule parse_safari_last_session
+INFO: found 0 files
+2020-02-13 20:56:24.433 ParseMACOSXSafariIngestModule parse_safari_last_session
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.433 ParseMACOSXSafariIngestModule parse_safari_last_session
+INFO: removal of Safari session directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.434 ParseMACOSXSafariIngestModule parse_safari_recently_closed_tabs
+INFO: found 0 files
+2020-02-13 20:56:24.435 ParseMACOSXSafariIngestModule parse_safari_recently_closed_tabs
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.436 ParseMACOSXSafariIngestModule parse_safari_recently_closed_tabs
+INFO: removal of Safari recentlyclosed directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.437 ParseMACOSXSafariIngestModule parse_safari_top_sites
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.438 ParseMACOSXSafariIngestModule parse_safari_top_sites
+INFO: removal of Safari session directory failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.438 ParseMACOSXSafariIngestModule process
+INFO: ending process, Just before call to parse_safari_history
+2020-02-13 20:56:24.438 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse MACOSX Safari analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.439 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse Plists analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.439 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse Plists analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.439 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Atomic_Wallet analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.44 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Atomic_Wallet analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.44 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse WebCache analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.442 ParseWebcacheIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.442 ParseWebcacheIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.443 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse WebCache analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.443 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Appxreg_Programs analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.445 ProcessAppxregProgramsIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.445 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Appxreg_Programs analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.445 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Android Analyzer analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.447 AndroidIngestModule process
+INFO: running 22 analyzers
+2020-02-13 20:56:24.457 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Android Analyzer analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.457 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: EML Parser analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.459 ProcessEmlEmailIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.459 org.python.core.PyReflectedFunction __call__
+SEVERE: Starting of plugin
+2020-02-13 20:56:24.459 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: EML Parser analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.46 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Mac OSX FSEvents Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.46 MacFSEventsIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.461 MacFSEventsIngestModule process
+INFO: Number of files to process ==> 0
+2020-02-13 20:56:24.462 MacFSEventsIngestModule process
+INFO: Running program ==> /home/desenv/.autopsy/dev/python_modules/MacFSEvents/FSEParser_V2.1 -c Autopsy -o /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/MacFSEvents -s /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp\MacFSEvents
+2020-02-13 20:56:24.503 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Spotlight Parser analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.506 ProcessSpotlightIngestModule process
+INFO: removal of spotlight database failed /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/spotlight
+2020-02-13 20:56:24.506 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Spotlight Parser analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.506 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Thumbs.db Parser Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.508 ThumbsIngestModule process
+INFO: Number of Thumbs.db files found ==> 0
+2020-02-13 20:56:24.509 ThumbsIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput
+2020-02-13 20:56:24.509 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Thumbs.db Parser Module analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.509 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Create Preview Data Container analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.511 Crt_Preview_Data_ContainertModule process
+INFO: size of disk is ==> 149
+2020-02-13 20:56:24.514 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Appx_Programs analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.516 ProcessAppxProgramsIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.517 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Appx_Programs analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.517 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse MACOS Recents analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.519 ParseMacOS_RecentIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.519 ParseMacOS_RecentIngestModule process
+INFO: Starting 2 to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.523 ParseMacOS_RecentIngestModule parse_plist_data
+INFO: select mac_osx_art_id, mac_osx_art_type, mac_osx_art_File_Name, mac_osx_art_dir_name, mac_osx_art_exec_file,  mac_osx_art_database_name, mac_osx_art_table_name,  mac_osx_art_sql_statement, os_version,  os_name from mac_artifact a, os_version b where a.os_id = b.os_id and b.os_version = 'All' and mac_osx_art_id = 1;
+2020-02-13 20:56:24.526 ParseMacOS_RecentIngestModule parse_plist_data
+INFO: Error querying database for recent version ([SQLITE_ERROR] SQL error or missing database (no such table: mac_artifact))
+2020-02-13 20:56:24.527 ParseMacOS_RecentIngestModule process
+INFO: MacOS Version is ===>  < == 
+2020-02-13 20:56:24.528 ParseMacOS_RecentIngestModule process
+INFO: select mac_osx_art_id, mac_osx_art_type, os_version from mac_artifact a, os_version b  where a.os_id = b.os_id and b.os_version = '10.12' and mac_osx_art_id > 1;
+2020-02-13 20:56:24.529 ParseMacOS_RecentIngestModule process
+INFO: Error querying database for mac_artifact ([SQLITE_ERROR] SQL error or missing database (no such table: mac_artifact))
+2020-02-13 20:56:24.529 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse MACOS Recents analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.529 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Timesketch Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.53 TimesketchIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.531 TimesketchIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/Timesketch
+2020-02-13 20:56:24.595 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Mac_Mail analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.597 ProcessMacMailIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.598 ProcessMacMailIngestModule process
+INFO: User Paths to get emlx files from ==> []
+2020-02-13 20:56:24.598 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Mac_Mail analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.598 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse SQLite Del Rec analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.599 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Parse SQLite Del Rec analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.599 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Teracopy analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.601 ProcessTeraCopyDbIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.602 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Teracopy analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.602 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Windows Internals analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.604 Windows_InternalsIngestModule process
+INFO: Starting to process, Just before call to parse_safari_history
+2020-02-13 20:56:24.605 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Windows Internals analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.605 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Windows_Mail analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.609 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Windows_Mail analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.609 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: SAMParse analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.611 ParseSAMIngestModule process
+INFO: found 0 files
+2020-02-13 20:56:24.612 ParseSAMIngestModule process
+INFO: Begin Create New Artifacts
+2020-02-13 20:56:24.613 ParseSAMIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp
+2020-02-13 20:56:24.615 ParseSAMIngestModule process
+INFO: /home/desenv/.autopsy/dev/python_modules/Parse_SAM/Samparse /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/SAM/SAM /home/desenv/Desktop/caso_autopsy_test/teste-005/Temp/SAM/SAM.db3
+2020-02-13 20:56:24.618 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Hash_Images analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.62 HashImagesIngestModule process
+INFO: Image Type ==> TSK_IMG_TYPE_EWF_EWF
+2020-02-13 20:56:24.62 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Hash_Images analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.62 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Create_Datasource_Hashset analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.622 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Create_Datasource_Hashset analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.622 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Thumbscache Parser Module analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 20:56:24.624 ThumbcacheIngestModule process
+INFO: Number of Thumbs.db files found ==> 0
+2020-02-13 20:56:24.624 ThumbcacheIngestModule process
+INFO: create Directory /home/desenv/Desktop/caso_autopsy_test/teste-005/ModuleOutput
+2020-02-13 20:56:24.625 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Thumbscache Parser Module analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 20:56:24.626 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Cuckoo Module experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Cuckoo/cuckoo.py", line 186, in process
+    for tag_name in self.tag_list:
+TypeError: 'NoneType' object is not iterable
+
+	org.python.core.Py.TypeError(Py.java:259)
+	org.python.core.PyObject.__iter__(PyObject.java:881)
+	cuckoo$py.process$15(/home/desenv/.autopsy/dev/python_modules/Cuckoo/cuckoo.py:236)
+	cuckoo$py.call_function(/home/desenv/.autopsy/dev/python_modules/Cuckoo/cuckoo.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.cuckoo$CuckooIngestModule$213.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.626 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Parse CCM Recently Used Apps experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py", line 141, in process
+    self.parse_recentApps(dataSource, progressBar)
+  File "/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py", line 192, in parse_recentApps
+    pipe = Popen([self.path_to_recentApps_exe, "win7", temp_dir, os.path.join(temp_dir, "recentlyUsedApps.db3")], stdout=PIPE, stderr=PIPE)
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/show_CCM_RecentlyUsedApps" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:394)
+	CCM_RecentlyUsedApps$py.parse_recentApps$13(/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py:397)
+	CCM_RecentlyUsedApps$py.call_function(/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:170)
+	org.python.core.PyFunction.__call__(PyFunction.java:434)
+	org.python.core.PyMethod.__call__(PyMethod.java:156)
+	CCM_RecentlyUsedApps$py.process$12(/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py:149)
+	CCM_RecentlyUsedApps$py.call_function(/home/desenv/.autopsy/dev/python_modules/CCM_RecentlyUsedApps/CCM_RecentlyUsedApps.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.CCM_RecentlyUsedApps$ParseRecentlyUsedAppsIngestModule$216.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.627 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: ShellBags experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Parse_Shellbags/Shellbag_Parser.py", line 288, in process
+    IngestServices.getInstance().fireModuleDataEvent(
+UnboundLocalError: local variable 'artID_shell_evt' referenced before assignment
+
+	org.python.core.Py.UnboundLocalError(Py.java:289)
+	org.python.core.PyFrame.getlocal(PyFrame.java:240)
+	Shellbag_Parser$py.process$12(/home/desenv/.autopsy/dev/python_modules/Parse_Shellbags/Shellbag_Parser.py:291)
+	Shellbag_Parser$py.call_function(/home/desenv/.autopsy/dev/python_modules/Parse_Shellbags/Shellbag_Parser.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.Shellbag_Parser$ParseShellbagsIngestModule$221.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.628 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Process/Extract Volume Shadow experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Process_Extract_VSS/Process_Extract_VS.py", line 179, in process
+    pipe = Popen([self.path_to_exe_vss, image_name, lclDbPath, vss_output, vss_error_log], stdout=PIPE, stderr=PIPE)
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/Process_Extract_VSS/process_extract_vss.exe" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:394)
+	Process_Extract_VS$py.process$16(/home/desenv/.autopsy/dev/python_modules/Process_Extract_VSS/Process_Extract_VS.py:331)
+	Process_Extract_VS$py.call_function(/home/desenv/.autopsy/dev/python_modules/Process_Extract_VSS/Process_Extract_VS.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.Process_Extract_VS$VSSIngesttModule$242.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.628 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: ParsePrefetchV41 experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Process_Prefetch_Files_V41/ParsePrefetch_v41.py", line 259, in process
+    subprocess.Popen([self.path_to_exe, Temp_Dir, os.path.join(Temp_Dir, "Autopsy_PF_DB.db3")]).communicate()[0]   
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/Process_Prefetch_Files_V41/parse_prefetch" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:461)
+	org.python.core.PyObject.__call__(PyObject.java:465)
+	ParsePrefetch_v41$py.process$11(/home/desenv/.autopsy/dev/python_modules/Process_Prefetch_Files_V41/ParsePrefetch_v41.py:359)
+	ParsePrefetch_v41$py.call_function(/home/desenv/.autopsy/dev/python_modules/Process_Prefetch_Files_V41/ParsePrefetch_v41.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.ParsePrefetch_v41$ParsePrefetchDbIngestModule$246.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.629 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Parse SRUDB experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Process_SRUDB/ParseSRUDB.py", line 230, in process
+    subprocess.Popen([self.path_to_exe, temp_file, os.path.join(Temp_Dir,"SRUDB.db3")]).communicate()[0]   
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/Process_SRUDB/Export_SRUDB" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:461)
+	org.python.core.PyObject.__call__(PyObject.java:465)
+	ParseSRUDB$py.process$15(/home/desenv/.autopsy/dev/python_modules/Process_SRUDB/ParseSRUDB.py:352)
+	ParseSRUDB$py.call_function(/home/desenv/.autopsy/dev/python_modules/Process_SRUDB/ParseSRUDB.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.ParseSRUDB$ParseSRUDBIngestModule$248.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.629 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Remove Artifacts/Attributes experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Remove_Artifacts/Remove_Artifacts.py", line 221, in process
+    for num in range (0, len(self.list_box_entry)):
+TypeError: object of type 'NoneType' has no len()
+
+	org.python.core.Py.TypeError(Py.java:259)
+	org.python.core.PyObject.__len__(PyObject.java:650)
+	org.python.core.__builtin__.len(__builtin__.java:729)
+	org.python.core.BuiltinFunctions.__call__(__builtin__.java:64)
+	org.python.core.PyObject.__call__(PyObject.java:465)
+	Remove_Artifacts$py.process$15(/home/desenv/.autopsy/dev/python_modules/Remove_Artifacts/Remove_Artifacts.py:254)
+	Remove_Artifacts$py.call_function(/home/desenv/.autopsy/dev/python_modules/Remove_Artifacts/Remove_Artifacts.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.Remove_Artifacts$Remove_ArtifactsIngestModule$255.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.63 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Mac OSX FSEvents Module experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/MacFSEvents/MacFSEvents.py", line 197, in process
+    pipe = Popen([self.MacFSEvents_Executable, "-c", "Autopsy", "-o", temp_dir, "-s", temp_dir], stdout=PIPE, stderr=PIPE)
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/MacFSEvents/FSEParser_V2.1" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:394)
+	MacFSEvents$py.process$12(/home/desenv/.autopsy/dev/python_modules/MacFSEvents/MacFSEvents.py:336)
+	MacFSEvents$py.call_function(/home/desenv/.autopsy/dev/python_modules/MacFSEvents/MacFSEvents.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.MacFSEvents$MacFSEventsIngestModule$275.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.631 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Create Preview Data Container experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py", line 157, in process
+    (vdisk_create_script, vdisk_unmount_script, vdisk_mount_script, drive_letter) = self.Create_Diskpart_Script(size_of_disk, vdisk_name)     
+  File "/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py", line 306, in Create_Diskpart_Script
+    vdc.write("assign letter=" + open_drive + " \n")
+UnboundLocalError: local variable 'open_drive' referenced before assignment
+
+	org.python.core.Py.UnboundLocalError(Py.java:289)
+	org.python.core.PyFrame.getlocal(PyFrame.java:240)
+	Create_Preview_Data_Container$py.Create_Diskpart_Script$14(/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py:320)
+	Create_Preview_Data_Container$py.call_function(/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:170)
+	org.python.core.PyFunction.__call__(PyFunction.java:434)
+	org.python.core.PyMethod.__call__(PyMethod.java:156)
+	Create_Preview_Data_Container$py.process$13(/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py:276)
+	Create_Preview_Data_Container$py.call_function(/home/desenv/.autopsy/dev/python_modules/Create_Preview_Data_Container/Create_Preview_Data_Container.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.Create_Preview_Data_Container$Crt_Preview_Data_ContainertModule$281.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.631 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: Timesketch Module experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Timesketch/timesketch.py", line 316, in process
+    self.log(Level.INFO, "command ==> " + self.path_to_Timesketch_exe + " " + sketchName + " " + jsonFileNamePath + " " + self.IP_Address + " " + self.Port_Number + " " + self.userName + " " + self.password)
+TypeError: cannot concatenate 'unicode' and 'NoneType' objects
+
+	org.python.core.Py.TypeError(Py.java:259)
+	org.python.core.PyObject._basic_add(PyObject.java:2141)
+	org.python.core.PyObject._add(PyObject.java:2119)
+	timesketch$py.process$15(/home/desenv/.autopsy/dev/python_modules/Timesketch/timesketch.py:338)
+	timesketch$py.call_function(/home/desenv/.autopsy/dev/python_modules/Timesketch/timesketch.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.timesketch$TimesketchIngestModule$287.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:24.632 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logErrorMessage
+SEVERE: SAMParse experienced an error during analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+Traceback (most recent call last):
+  File "/home/desenv/.autopsy/dev/python_modules/Parse_SAM/SAMParse.py", line 186, in process
+    subprocess.Popen([self.path_to_exe, sam_file, sam_database]).communicate()[0]   
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 830, in __init__
+  File "/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py", line 1352, in _execute_child
+OSError: Cannot run program "/home/desenv/.autopsy/dev/python_modules/Parse_SAM/Samparse" (in directory "/home/desenv/Downloads/autopsy-4.14.0"): error=13, Permission denied
+
+	org.python.core.PyException.doRaise(PyException.java:226)
+	org.python.core.Py.makeException(Py.java:1337)
+	org.python.core.Py.makeException(Py.java:1341)
+	org.python.core.Py.makeException(Py.java:1345)
+	subprocess$py._execute_child$39(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:1354)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	subprocess$py.__init__$21(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py:912)
+	subprocess$py.call_function(/home/desenv/Downloads/autopsy-4.14.0/autopsy/modules/ext/jython-standalone-2.7.0.jar/Lib/subprocess.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:223)
+	org.python.core.Deriveds.dispatch__init__(Deriveds.java:19)
+	org.python.core.PyObjectDerived.dispatch__init__(PyObjectDerived.java:1112)
+	org.python.core.PyType.type___call__(PyType.java:1713)
+	org.python.core.PyType.__call__(PyType.java:1696)
+	org.python.core.PyObject.__call__(PyObject.java:461)
+	org.python.core.PyObject.__call__(PyObject.java:465)
+	SAMParse$py.process$12(/home/desenv/.autopsy/dev/python_modules/Parse_SAM/SAMParse.py:292)
+	SAMParse$py.call_function(/home/desenv/.autopsy/dev/python_modules/Parse_SAM/SAMParse.py)
+	org.python.core.PyTableCode.call(PyTableCode.java:167)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:307)
+	org.python.core.PyBaseCode.call(PyBaseCode.java:198)
+	org.python.core.PyFunction.__call__(PyFunction.java:482)
+	org.python.core.PyMethod.instancemethod___call__(PyMethod.java:237)
+	org.python.core.PyMethod.__call__(PyMethod.java:228)
+	org.python.core.PyMethod.__call__(PyMethod.java:218)
+	org.python.core.PyMethod.__call__(PyMethod.java:213)
+	org.python.core.PyObject._jcallexc(PyObject.java:3626)
+	org.python.core.PyObject._jcall(PyObject.java:3658)
+	org.python.proxies.SAMParse$ParseSAMIngestModule$304.process(Unknown Source)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.process(DataSourceIngestPipeline.java:206)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.process(DataSourceIngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestJob.process(DataSourceIngestJob.java:744)
+	org.sleuthkit.autopsy.ingest.DataSourceIngestTask.execute(DataSourceIngestTask.java:30)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:926)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 20:56:51.358 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2020-02-13 20:56:51.385 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-02-13 20:56:51.386 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-02-13 20:57:09.766 org.sleuthkit.autopsy.geolocation.datamodel.WaypointBuilder getAllWaypoints
+INFO: SELECT DISTINCT artifact_id, artifact_type_id FROM blackboard_attributes WHERE artifact_id NOT IN (SELECT artifact_id FROM blackboard_attributes WHERE attribute_type_id IN (2, 68) ) AND artifact_id IN (SELECT blackboard_attributes.artifact_id FROM blackboard_attributes, blackboard_artifacts WHERE blackboard_attributes.artifact_id = blackboard_artifacts.artifact_id AND blackboard_attributes.attribute_type_id IN(54, 98) AND data_source_obj_id IN (1,45)) UNION SELECT artifact_id, artifact_type_id FROM blackboard_attributes WHERE attribute_type_id IN (2, 68) AND artifact_id IN(SELECT blackboard_attributes.artifact_id FROM blackboard_attributes, blackboard_artifacts WHERE blackboard_attributes.artifact_id = blackboard_artifacts.artifact_id AND blackboard_attributes.attribute_type_id IN(54, 98) AND data_source_obj_id IN (1,45))
+2020-02-13 20:57:37.177 org.sleuthkit.autopsy.texttranslation.translators.GoogleTranslator loadTranslator
+INFO: No credentials file has been provided for Google Translator
+2020-02-13 20:57:37.178 org.sleuthkit.autopsy.texttranslation.translators.GoogleTranslator loadTranslator
+WARNING: Credentials were not successfully made, no translations will be available from the GoogleTranslator
+2020-02-13 20:58:15.808 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0006872.jpg
+2020-02-13 20:58:16.248 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0007800.jpg
+2020-02-13 20:58:16.752 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0012240.jpg
+2020-02-13 20:58:17.208 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0012704.png
+2020-02-13 20:58:17.744 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0016208.jpg
+2020-02-13 20:58:18.288 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0017448.png
+2020-02-13 20:58:18.779 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0017664.png
+2020-02-13 20:58:19.352 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0017688.png
+2020-02-13 20:58:19.936 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0017824.png
+2020-02-13 20:58:20.456 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0018064.png
+2020-02-13 20:58:32.095 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0049064.swf
+2020-02-13 20:58:34.592 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0063136.swf
+2020-02-13 20:58:36.239 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0011240.swf
+2020-02-13 20:59:37.346 org.sleuthkit.autopsy.geolocation.datamodel.WaypointBuilder getAllWaypoints
+INFO: SELECT DISTINCT artifact_id, artifact_type_id FROM blackboard_attributes WHERE artifact_id NOT IN (SELECT artifact_id FROM blackboard_attributes WHERE attribute_type_id IN (2, 68) ) AND artifact_id IN (SELECT blackboard_attributes.artifact_id FROM blackboard_attributes, blackboard_artifacts WHERE blackboard_attributes.artifact_id = blackboard_artifacts.artifact_id AND blackboard_attributes.attribute_type_id IN(54, 98) AND data_source_obj_id IN (1,45)) UNION SELECT artifact_id, artifact_type_id FROM blackboard_attributes WHERE attribute_type_id IN (2, 68) AND artifact_id IN(SELECT blackboard_attributes.artifact_id FROM blackboard_attributes, blackboard_artifacts WHERE blackboard_attributes.artifact_id = blackboard_artifacts.artifact_id AND blackboard_attributes.attribute_type_id IN(54, 98) AND data_source_obj_id IN (1,45))
+2020-02-13 21:01:25.225 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$PeriodicSearchTask run
+INFO: Starting periodic searches
+2020-02-13 21:01:25.226 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$PeriodicSearchTask run
+INFO: Executing periodic search for search job 1
+2020-02-13 21:01:25.237 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Finished first stage analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 21:01:25.238 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 3 shutting down
+2020-02-13 21:01:25.239 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 2 shutting down
+2020-02-13 21:01:25.239 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: Commiting search index before final search for search job 1
+2020-02-13 21:01:25.672 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Starting final search for search job 1
+2020-02-13 21:01:25.672 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Checking for previous search for search job 1 before executing final search
+2020-02-13 21:01:25.672 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo waitForCurrentWorker
+INFO: Waiting for previous worker to finish
+2020-02-13 21:01:26.538 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher doInBackground
+INFO: Searcher took 1 secs to run (final = false)
+2020-02-13 21:01:26.538 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo searchNotify
+INFO: Notifying after finishing search
+2020-02-13 21:01:26.538 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo waitForCurrentWorker
+INFO: Notified previous worker finished
+2020-02-13 21:01:26.538 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$PeriodicSearchTask run
+INFO: All periodic searches cumulatively took 1 secs
+2020-02-13 21:01:26.538 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Kicking off final search for search job 1
+2020-02-13 21:01:26.539 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Waiting for final search for search job 1
+2020-02-13 21:01:27.612 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher doInBackground
+INFO: Searcher took 1 secs to run (final = true)
+2020-02-13 21:01:27.613 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo searchNotify
+INFO: Notifying after finishing search
+2020-02-13 21:01:27.613 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Final search for search job 1 completed
+2020-02-13 21:01:27.613 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: No more search jobs. Stopping periodic search task
+2020-02-13 21:01:27.617 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 5.189
+2020-02-13 21:01:27.619 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 7.275
+2020-02-13 21:01:27.62 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>3276</td></tr><tr><td>Files with general strings extracted</td><td>1851</td></tr><tr><td>Metadata only was indexed</td><td>10</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2020-02-13 21:01:27.621 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Starting second stage analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 21:01:27.621 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Scheduling second stage data source level analysis tasks (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 21:01:27.622 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Data Source Integrity analysis of 2011-10-19-Sample.E01 (jobId=1) starting
+2020-02-13 21:01:27.623 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 4.800
+2020-02-13 21:01:27.623 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash verification of 2011-10-19-Sample.E01
+2020-02-13 21:01:28.263 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from 2011-10-19-Sample.E01: cc2421556f455150c47081438036dd46
+2020-02-13 21:01:28.263 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Data Source Integrity analysis of 2011-10-19-Sample.E01 (jobId=1) finished
+2020-02-13 21:01:28.263 org.sleuthkit.autopsy.ingest.DataSourceIngestJob logInfoMessage
+INFO: Finished analysis (data source = 2011-10-19-Sample.E01, objId = 1, jobId = 1)
+2020-02-13 21:01:28.264 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 1 completed
+2020-02-13 21:03:09.797 org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanel load
+SEVERE: Can't read current Jvm max memory setting from file
+java.io.IOException: Conf file could not be found/home/desenv/Downloads/autopsy-4.14.0/etc/Autopsy.conf
+	org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanel.getInstallFolderConfFile(AutopsyOptionsPanel.java:194)
+	org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanel.getCurrentXmxValue(AutopsyOptionsPanel.java:168)
+	org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanel.getCurrentJvmMaxMemoryInGB(AutopsyOptionsPanel.java:130)
+	org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanel.load(AutopsyOptionsPanel.java:308)
+	org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanelController.update(AutopsyOptionsPanelController.java:47)
+	org.netbeans.modules.options.CategoryModel$Category.update(CategoryModel.java:394)
+	org.netbeans.modules.options.OptionsPanel.setCurrentCategory(OptionsPanel.java:259)
+	org.netbeans.modules.options.OptionsPanel.initCurrentCategory(OptionsPanel.java:202)
+	org.netbeans.modules.options.OptionsDisplayerImpl.showOptionsDialog(OptionsDisplayerImpl.java:237)
+	org.netbeans.api.options.OptionsDisplayer$3.run(OptionsDisplayer.java:248)
+	org.netbeans.api.options.OptionsDisplayer$3.run(OptionsDisplayer.java:234)
+	org.netbeans.modules.openide.util.NbMutexEventProvider$Event.doEventAccess(NbMutexEventProvider.java:138)
+	org.netbeans.modules.openide.util.NbMutexEventProvider$Event.readAccess(NbMutexEventProvider.java:98)
+	org.netbeans.modules.openide.util.LazyMutexImplementation.readAccess(LazyMutexImplementation.java:94)
+	org.openide.util.Mutex.readAccess(Mutex.java:218)
+	org.netbeans.api.options.OptionsDisplayer.openImpl(OptionsDisplayer.java:234)
+	org.netbeans.api.options.OptionsDisplayer.open(OptionsDisplayer.java:181)
+	org.netbeans.api.options.OptionsDisplayer.open(OptionsDisplayer.java:131)
+	org.netbeans.api.options.OptionsDisplayer.open(OptionsDisplayer.java:197)
+	org.netbeans.modules.options.OptionsWindowAction.actionPerformed(OptionsWindowAction.java:64)
+	org.openide.awt.AlwaysEnabledAction$1.run(AlwaysEnabledAction.java:199)
+	org.openide.util.actions.ActionInvoker$1.run(ActionInvoker.java:95)
+	org.openide.util.actions.ActionInvoker.doPerformAction(ActionInvoker.java:116)
+	org.openide.util.actions.ActionInvoker.invokeAction(ActionInvoker.java:99)
+	org.openide.awt.AlwaysEnabledAction.actionPerformed(AlwaysEnabledAction.java:202)
+	javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	java.awt.Component.processMouseEvent(Component.java:6539)
+	javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	java.awt.Component.processEvent(Component.java:6304)
+	java.awt.Container.processEvent(Container.java:2239)
+	java.awt.Component.dispatchEventImpl(Component.java:4889)
+	java.awt.Container.dispatchEventImpl(Container.java:2297)
+	java.awt.Component.dispatchEvent(Component.java:4711)
+	java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	java.awt.Container.dispatchEventImpl(Container.java:2283)
+	java.awt.Window.dispatchEventImpl(Window.java:2746)
+	java.awt.Component.dispatchEvent(Component.java:4711)
+	java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	java.awt.EventQueue.access$500(EventQueue.java:97)
+	java.awt.EventQueue$3.run(EventQueue.java:709)
+	java.awt.EventQueue$3.run(EventQueue.java:703)
+	java.security.AccessController.doPrivileged(Native Method)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	java.awt.EventQueue$4.run(EventQueue.java:733)
+	java.awt.EventQueue$4.run(EventQueue.java:731)
+	java.security.AccessController.doPrivileged(Native Method)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.14.0
+2020-02-13 21:04:59.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.14.0
+2020-02-13 21:04:59.983 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.14.0
+2020-02-13 21:04:59.983 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.14.0
+2020-02-13 21:04:59.983 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.14.0
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Cuckoo Module, version = 1.0
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse CCM Recently Used Apps, version = 1.0
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtxByEventID, version = 1.0
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShellBags, version = 1.0
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Bam Key Module, version = 1.1
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtx, version = 1.5
+2020-02-13 21:05:02.533 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = iTunes Backup Module, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite DB, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse File History, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Amcache, version = 1.3
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Amazon Echosystem Parser, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Process/Extract Volume Shadow, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ActivitiesCache, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParsePrefetchV41, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SRUDB, version = 1.3
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = USN Parser, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Recycle Bin Module, version = 1.2
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Remove Artifacts/Attributes, version = 1.2
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShimcacheParser, version = 1.0
+2020-02-13 21:05:02.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOSX Safari, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Plists, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Atomic_Wallet, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse WebCache, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appxreg_Programs, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.14.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = EML Parser, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac OSX FSEvents Module, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Spotlight Parser, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbs.db Parser Module, version = 1.1
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create Preview Data Container, version = 1.3
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appx_Programs, version = 1.0
+2020-02-13 21:05:02.535 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOS Recents, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Timesketch Module, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Face Detector, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac_Mail, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite Del Rec, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Teracopy, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows Internals, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows_Mail, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = SAMParse, version = 1.0
+2020-02-13 21:05:02.536 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = JumpList AD, version = 1.0
+2020-02-13 21:05:02.537 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Hash_Images, version = 1.0
+2020-02-13 21:05:02.537 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create_Datasource_Hashset, version = 1.0
+2020-02-13 21:05:02.537 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbscache Parser Module, version = 1.1
+2020-02-13 21:05:02.537 org.sleuthkit.autopsy.coreutils.ModuleSettings setConfigSetting
+INFO: File did not exist. Created file [CommandLineModeContext.properties]
+2020-02-13 21:06:21.633 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Correlation Engine, version = 4.14.0
+2020-02-13 21:06:21.633 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.14.0
+2020-02-13 21:06:21.633 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.14.0
+2020-02-13 21:06:21.633 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.14.0
+2020-02-13 21:06:21.633 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.14.0
+2020-02-13 21:06:21.634 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.14.0
+2020-02-13 21:06:21.635 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.14.0
+2020-02-13 21:06:21.635 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.14.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Cuckoo Module, version = 1.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse CCM Recently Used Apps, version = 1.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtxByEventID, version = 1.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShellBags, version = 1.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Bam Key Module, version = 1.1
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParseEvtx, version = 1.5
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = iTunes Backup Module, version = 1.0
+2020-02-13 21:06:24.351 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite DB, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse File History, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Amcache, version = 1.3
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Amazon Echosystem Parser, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Process/Extract Volume Shadow, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ActivitiesCache, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ParsePrefetchV41, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SRUDB, version = 1.3
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = USN Parser, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Recycle Bin Module, version = 1.2
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Remove Artifacts/Attributes, version = 1.2
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = ShimcacheParser, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOSX Safari, version = 1.0
+2020-02-13 21:06:24.352 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse Plists, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Atomic_Wallet, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse WebCache, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appxreg_Programs, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.14.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = EML Parser, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac OSX FSEvents Module, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Spotlight Parser, version = 1.0
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbs.db Parser Module, version = 1.1
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create Preview Data Container, version = 1.3
+2020-02-13 21:06:24.353 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Appx_Programs, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse MACOS Recents, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Timesketch Module, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Face Detector, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Mac_Mail, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Parse SQLite Del Rec, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Teracopy, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows Internals, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Windows_Mail, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = SAMParse, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = JumpList AD, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Hash_Images, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Create_Datasource_Hashset, version = 1.0
+2020-02-13 21:06:24.354 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Thumbscache Parser Module, version = 1.1
+2020-02-13 21:07:13.178 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01//$CarvedFiles/f0011240.swf.  It may be unsupported or corrupt: javax.imageio.IIOException: Failed to generate a thumbnail for /img_2011-10-19-Sample.E01//$CarvedFiles/f0011240.swf
+2020-02-13 21:07:13.181 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01//$CarvedFiles/f0011208.swc.  It may be unsupported or corrupt: javax.imageio.IIOException: Failed to generate a thumbnail for /img_2011-10-19-Sample.E01//$CarvedFiles/f0011208.swc
+2020-02-13 21:07:18.41 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:18.413 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:18.414 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:19.647 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute getValue
+WARNING: Exception while getting image attributes
+java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+	com.github.jaiimageio.impl.plugins.pcx.PCXImageReader.readHeader(PCXImageReader.java:417)
+	com.github.jaiimageio.impl.plugins.pcx.PCXImageReader.getWidth(PCXImageReader.java:162)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.lambda$getImageWidth$2(ImageUtils.java:552)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getImageProperty(ImageUtils.java:623)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getImageWidth(ImageUtils.java:550)
+	org.sleuthkit.autopsy.imagegallery.datamodel.ImageFile.getWidth(ImageFile.java:54)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute.lambda$static$10(DrawableAttribute.java:156)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute.getValue(DrawableAttribute.java:234)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableFile.makeAttributeValuePair(DrawableFile.java:165)
+	java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableFile.getAttributesList(DrawableFile.java:113)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.lambda$updateAttributesTable$10(MetaDataPane.java:209)
+	java.util.Optional.ifPresent(Optional.java:159)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.updateAttributesTable(MetaDataPane.java:208)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.setFileHelper(MetaDataPane.java:187)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableUIBase.setFile(DrawableUIBase.java:119)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.lambda$initialize$0(MetaDataPane.java:112)
+	com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	javafx.beans.property.ReadOnlyObjectPropertyBase.fireValueChangedEvent(ReadOnlyObjectPropertyBase.java:74)
+	javafx.beans.property.ReadOnlyObjectWrapper.fireValueChangedEvent(ReadOnlyObjectWrapper.java:102)
+	javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:112)
+	javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	org.sleuthkit.autopsy.imagegallery.FileIDSelectionModel.setLastSelected(FileIDSelectionModel.java:144)
+	org.sleuthkit.autopsy.imagegallery.FileIDSelectionModel.clearAndSelect(FileIDSelectionModel.java:117)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane.makeSelection(GroupPane.java:682)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableTile.lambda$null$1(DrawableTile.java:79)
+	java.util.Optional.ifPresent(Optional.java:159)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableTile.lambda$initialize$2(DrawableTile.java:74)
+	com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	javafx.event.Event.fireEvent(Event.java:198)
+	javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	com.sun.javafx.tk.quantum.EmbeddedScene.lambda$null$302(EmbeddedScene.java:256)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.tk.quantum.EmbeddedScene.lambda$mouseEvent$303(EmbeddedScene.java:244)
+	com.sun.javafx.application.PlatformImpl.lambda$null$397(PlatformImpl.java:295)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$398(PlatformImpl.java:294)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	com.sun.glass.ui.gtk.GtkApplication.lambda$null$203(GtkApplication.java:139)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 21:07:19.649 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute getValue
+WARNING: Exception while getting image attributes
+java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+	com.github.jaiimageio.impl.plugins.pcx.PCXImageReader.readHeader(PCXImageReader.java:417)
+	com.github.jaiimageio.impl.plugins.pcx.PCXImageReader.getHeight(PCXImageReader.java:130)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.lambda$getImageHeight$3(ImageUtils.java:569)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getImageProperty(ImageUtils.java:623)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getImageHeight(ImageUtils.java:567)
+	org.sleuthkit.autopsy.imagegallery.datamodel.ImageFile.getHeight(ImageFile.java:63)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute.lambda$static$11(DrawableAttribute.java:162)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableAttribute.getValue(DrawableAttribute.java:234)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableFile.makeAttributeValuePair(DrawableFile.java:165)
+	java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableFile.getAttributesList(DrawableFile.java:113)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.lambda$updateAttributesTable$10(MetaDataPane.java:209)
+	java.util.Optional.ifPresent(Optional.java:159)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.updateAttributesTable(MetaDataPane.java:208)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.setFileHelper(MetaDataPane.java:187)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableUIBase.setFile(DrawableUIBase.java:119)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.MetaDataPane.lambda$initialize$0(MetaDataPane.java:112)
+	com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:361)
+	com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:81)
+	javafx.beans.property.ReadOnlyObjectPropertyBase.fireValueChangedEvent(ReadOnlyObjectPropertyBase.java:74)
+	javafx.beans.property.ReadOnlyObjectWrapper.fireValueChangedEvent(ReadOnlyObjectWrapper.java:102)
+	javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:112)
+	javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:146)
+	org.sleuthkit.autopsy.imagegallery.FileIDSelectionModel.setLastSelected(FileIDSelectionModel.java:144)
+	org.sleuthkit.autopsy.imagegallery.FileIDSelectionModel.clearAndSelect(FileIDSelectionModel.java:117)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane.makeSelection(GroupPane.java:682)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableTile.lambda$null$1(DrawableTile.java:79)
+	java.util.Optional.ifPresent(Optional.java:159)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.DrawableTile.lambda$initialize$2(DrawableTile.java:74)
+	com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+	com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	javafx.event.Event.fireEvent(Event.java:198)
+	javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470)
+	javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398)
+	javafx.scene.Scene$MouseHandler.process(Scene.java:3766)
+	javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485)
+	javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762)
+	javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494)
+	com.sun.javafx.tk.quantum.EmbeddedScene.lambda$null$302(EmbeddedScene.java:256)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.tk.quantum.EmbeddedScene.lambda$mouseEvent$303(EmbeddedScene.java:244)
+	com.sun.javafx.application.PlatformImpl.lambda$null$397(PlatformImpl.java:295)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$398(PlatformImpl.java:294)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	com.sun.glass.ui.gtk.GtkApplication.lambda$null$203(GtkApplication.java:139)
+	java.lang.Thread.run(Thread.java:748)
+2020-02-13 21:07:19.659 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:28.868 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:28.887 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_2011-10-19-Sample.E01/$Extend/$RmMetadata/$TxfLog/$Tops.  It may be unsupported or corrupt: java.lang.IllegalStateException: image is not a PCX file, invalid encoding 100
+2020-02-13 21:07:39.292 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2020-02-13 21:07:39.306 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-02-13 21:07:39.307 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-02-13 21:12:54.009 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2020-02-13 21:12:54.027 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-02-13 21:12:54.028 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2020/02/13 20:48:38 (BRT)</CreatedDate>
+  <ModifiedDate>2020/02/13 20:48:38 (BRT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.14.0</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.14.0</SavedByAutopsyVersion>
+  <Case>
+    <Name>teste-005_20200213_204838</Name>
+    <DisplayName>teste-005</DisplayName>
+    <Number>CASE 005</Number>
+    <Examiner>NOME DO EXAMINADOR</Examiner>
+    <ExaminerPhone>TELEFONE DE CONTATO DO EXAMINADOR</ExaminerPhone>
+    <ExaminerEmail>EMAIL DO EXAMINADOR</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>
